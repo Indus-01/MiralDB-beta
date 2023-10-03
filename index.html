@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+       <link rel="stylesheet" href="MiralCSS/miral.min.css">
+       <title>MiralDB. Database</title>
+</head>
+<body>
+       <header class="header-indus-full-row">
+              <h2>MiralDB</h2>
+              <h2>main</h2>
+              <h2>get</h2>
+              <h2>post</h2>
+       </header>
+       <button class="indus-post-button" onclick="postTodo()">Post user</button>
+       <div class="container-cards">
+              <div class="indus-container-card">
+                     <h1>Hello</h1>
+                     <h2>Welcome</h2>
+              </div>
+       </div>
+       <div class="modal" id="modal">
+              <div class="row">
+                     <h1>Add user</h1>
+                     <button id="close"><i class="fa fa-close"></i></button>
+              </div>
+              <input type="text" class="text-input-indus-default" placeholder="Add user">
+              <textarea cols=50 rows=10 class="text-area-indus-default" placeholder="Add information"></textarea>
+              <button class="indus-post-button" onclick="addTodo()">Post user</button>
+       </div>
+       <script src="script.js"></script>
+</body>
+</html>
