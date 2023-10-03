@@ -1,0 +1,86 @@
+*{
+       margin: 0;
+}
+
+body{
+       background: #46922c;
+}
+
+.header-indus-full-row{     
+       width: 100%;
+       height: 50px;
+       background: rgb(45, 45, 45);
+       color: white;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+}
+
+.text-input-indus-default{
+       padding: 10px;
+       background: black;
+       border: 3px solid yellow;
+       color: white;
+}
+
+.text-area-indus-default{
+       padding: 10px;
+       background: black;
+       border: 3px solid yellow;
+       color: white;
+}
+
+.column{
+       display: flex;
+       flex-direction: column;
+       margin: 10px;
+}
+
+.indus-post-button{
+       padding: 10px;
+       background: rgb(3, 88, 3);
+       border: 3px solid yellow;
+       color: white;
+       width: 25%;
+       margin-top: 10px;
+       margin: 20px;
+}
+
+.indus-container-card{
+       padding: 10px;
+       background: black;
+       border: 3px solid yellow;
+       color: white;
+       margin-bottom: 10px; 
+       margin-left: 10px;
+}
+
+#modal{
+       width: 500px;
+       height: auto;
+       background-color: rgb(88, 88, 88);
+       position: absolute;
+       left: 25%;
+       right: 25%;
+       top: 25%;
+       padding: 20px;
+       text-align: center;
+       display: none;
+}
+
+.row{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+}
+
+.row button{
+       margin-left: 10px;
+}
+
+#close{
+       border-radius: 0px;
+       border: none;
+       background-color: red;
+       color: black;
+}
