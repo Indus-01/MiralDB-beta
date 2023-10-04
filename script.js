@@ -29,3 +29,6 @@ const promise = new Promise((resolve, reject) => {
 console.log(promise);
 promise.then(x=> console.log(x));
 
+function addTodo = todo => {
+       document.body.innerHTML += `<div>${todo.name}.${todo.age}</div>`;
+}
